@@ -1,0 +1,134 @@
+/* imagem.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  position: relative;
+}
+
+main {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+  text-align: center;
+}
+
+.star {
+  font-size: 1rem;
+  color: gold;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: hsl(0, 0%, 100%);
+}
+
+p {
+  font-size: 15px;
+  margin-bottom: 2rem;
+  color: hsl(217, 12%, 63%);
+  line-height: 1.6;
+}
+
+.dad-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 1rem;
+}
+
+footer .attribution {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+footer a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.button {
+  background-color: hsl(25, 97%, 53%);
+  color: black;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 1rem;
+  transition: background-color 0.3s;
+}
+
+.button:disabled {
+  background-color: #7c7c7c;
+  cursor: not-allowed;
+}
+
+.button:hover:not(:disabled) {
+  background-color: hsl(25, 69%, 68%);
+}
+
+.botao-voltar {
+  margin-top: 20px; 
+}
+
+.botao-voltar button {
+  padding: 10px 20px;
+  background-color: hsl(25, 97%, 53%); 
+  color: black; 
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botao-voltar button:hover {
+  background-color: hsl(25, 69%, 68%); 
+}
+
+#message {
+  color: hsl(25, 97%, 53%);
+  font-size: 0.8rem;
+  margin-top: 20px;
+}
+
+.message-bordered {
+  padding: 10px;
+  border-radius: 2em;
+  margin-top: 20px;
+  border:solid
+}
+
+
+.highlight {
+  color: hsl(25, 97%, 53%);
+}
